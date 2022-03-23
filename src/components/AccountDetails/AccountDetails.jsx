@@ -10,9 +10,9 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
           <i>Crypto Boy NFTs</i> and manage them.
         </p>
         <hr className="my-4" />
-        <p className="lead">Account address :</p>
+        <p className="lead">Account address : </p>
         <h4>{accountAddress}</h4>
-        <p className="lead">Account balance :</p>
+        <p className="lead">Account balance : </p>
         <h4>{accountBalance} Ξ</h4>
       </div>
     </div>
