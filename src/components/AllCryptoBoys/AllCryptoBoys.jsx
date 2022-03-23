@@ -16,6 +16,7 @@ const AllCryptoBoys = ({
   useEffect(() => {
     if (cryptoBoys.length !== 0) {
       if (cryptoBoys[0].metaData !== undefined) {
+        console.log("cryptoBoys", cryptoBoys);
         setLoading(loading);
       } else {
         setLoading(false);

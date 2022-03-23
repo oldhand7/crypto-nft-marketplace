@@ -19,6 +19,7 @@ const Queries = (props) => {
         .getTokenOwner(tokenIdForOwner)
         .call();
       setTokenOwner(owner);
+      console.log("owner", owner)
       setTimeout(() => {
         setTokenOwner("");
         setTokenIdForOwner("");
